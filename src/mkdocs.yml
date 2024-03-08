@@ -1,4 +1,4 @@
-site_name: Funky Apple Docs
+site_name: FunkyApple Docs
 site_url: https://funkyapple.dev
 repo_url: https://github.com/funkyapple/docs
 repo_name: funkyapple/docs
@@ -20,31 +20,17 @@ extra:
   analytics:
     provider: google
     property: G-L2TJRBVYCM
-    feedback:
-      title: Was this page helpful?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: This page was helpful
-          data: 1
-          note: >-
-            Thanks for your feedback!
-        - icon: material/emoticon-sad-outline
-          name: This page could be improved
-          data: 0
-          note: >- 
-            Thanks for your feedback! Help us improve this page by
-            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
 
 theme: 
   name: material
   language: en
-  logo: assets/logo.png
-  favicon: assets/favicon.png
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.png
   features:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
-    - navigation.sections
+    - navigation.tabs
     - navigation.tracking
     - navigation.path
     - search.suggest
