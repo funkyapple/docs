@@ -8,7 +8,7 @@ hide:
 
 A longe time ago, the apple was unknown to man. 
 
-A collection of guides to setup a server or even your macbook. 
+A collection of guides to setup a server or even your Macbook. 
 
 <div class="grid cards" markdown>
 
