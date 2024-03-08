@@ -27,5 +27,4 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material 
       - run: pip install "mkdocs-material[imaging]"
-      - run: echo "funkyapple.dev" > CNAME
       - run: mkdocs gh-deploy --force --config-file src/mkdocs.yml
