@@ -1,6 +1,7 @@
-site_name: FunkyApple Docs
+site_name: Funky Apple Docs
 site_url: https://funkyapple.dev
-
+repo_url: https://github.com/funkyapple/docs
+repo_name: funkyapple/docs
 extra_css:
   - stylesheets/extra.css
   
@@ -19,13 +20,39 @@ extra:
   analytics:
     provider: google
     property: G-L2TJRBVYCM
-
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
 
 theme: 
   name: material
   language: en
+  custom_dir: docs/overrides
   logo: assets/logo.png
   favicon: assets/favicon.png
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.tracking
+    - navigation.path
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -46,16 +73,31 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to system preference
       primary: black
-  features:
-    - navigation.tabs
+
 copyright: >
   Copyright &copy; 2024 Funky Apple –
   <a href="#__consent">Change cookie settings</a>
+
 markdown_extensions:
+  - toc: 
+      permalink: true
   - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
 plugins:
   - privacy
+  - search
   - blog
+  - social
