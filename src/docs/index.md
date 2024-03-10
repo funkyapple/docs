@@ -43,3 +43,7 @@ A major shoutout to [The Geek Coolbook](https://geek-cookbook.funkypenguin.co.nz
 ## What this guide hopes to achieve? 
 
 I'd like to think of this as a documentation of my journey. Hopefully you learn along the way. 
+
+## Disclaimer
+
+I am not associated with Apple™ in any way or form. My username just contains the word apple. 
