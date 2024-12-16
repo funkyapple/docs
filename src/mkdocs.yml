@@ -7,19 +7,6 @@ extra_css:
   
 extra:
   homepage: https://funkyapple.dev
-  consent:
-    title: Cookie consent
-    description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
-    cookies:
-      analytics: Google Analytics
-      github: Github
-  analytics:
-    provider: google
-    property: G-L2TJRBVYCM
 
 theme: 
   name: material
@@ -60,7 +47,7 @@ theme:
       primary: black
 
 copyright: >
-  Copyright &copy; 2024 Funky Apple –
+  Copyright &copy; 2024 FunkyApple –
   <a href="#__consent">Change cookie settings</a>
 
 markdown_extensions:
